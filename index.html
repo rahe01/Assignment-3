@@ -30,7 +30,10 @@
                     colors: {
                         clifford: '#da373d',
                         'color-primary': '#FF4240',
-                        'bg-primary': 'rgba(19, 19, 24, 0.50)'
+                        'bg-primary': 'rgba(19, 19, 24, 0.50)',
+                        'bg-call': 'rgba(188, 237, 109, 0.10)',
+                        'bg-mail': 'rgba(253, 221, 95, 0.10)',
+                        'bg-location': 'rgba(98, 156, 243, 0.10)'
                     }
                 }
             }
@@ -649,8 +652,9 @@
         <!-- get inform section -->
 
         <section>
-            <div class="
-            h-auto  lg:h-40  flex flex-col items-center justify-center border-y-2 border-dashed border-gray-300 mt-24">
+            <div
+                class="
+            h-auto  lg:h-40  flex flex-col items-center justify-center border-y-2 border-dashed border-gray-300 mt-24 mb-5">
                 <h1 class=" sm:text-xl  lg:text-4xl font-extrabold text-center">Get In Touch</h1>
                 <p class="font-medium text-center pt-3 px-7 lg:px-32">
 
@@ -660,9 +664,121 @@
                 </p>
             </div>
 
+            <div class="flex items-center justify-center">
 
-            
-            
+
+            <div class="flex flex-col lg:flex-row w-auto lg:w-[900px] h-auto   ">
+
+                <div class="border-2 border-gray-300 p-7 rounded-2xl flex-1">
+
+                    <div class="bg-bg-call rounded-2xl mb-6">
+                        <img src="image/Group 1171275317.png" alt="" class="p-6">
+
+                        <p class="pl-6 pb-6"><span class="text-gray-400">Phone Number: </span><br>
+                            <span class="font-bold">(+62) 123-321-543</span>
+                        </p>
+                    </div>
+
+                    <div class="bg-bg-mail rounded-2xl mb-6">
+                        <img src="image/Group 1171275318.png" alt="" class="p-6">
+
+                        <p class="pl-6 pb-6"><span class="text-gray-400">Email :
+                            </span><br>
+                            <span class="font-bold">hockeys@support.com</span>
+                        </p>
+                    </div>
+                    <div class="bg-bg-location rounded-2xl ">
+                        <img src="image/Group 1171275321.png" alt="" class="p-6">
+
+                        <p class="pl-6 pb-6"><span class="text-gray-400">Location :
+                            </span><br>
+                            <span class="font-bold">152/1 Mohakhali Wireless Gate</span>
+                        </p>
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="flex-1  ">
+
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:ml-6">
+
+
+                        <div>
+                            <label class="form-control w-full max-w-xs">
+                                <div class="label">
+                                    <span class="label-text text-xl font-bold">Your Name:</span>
+                                </div>
+                                <input type="text" placeholder="Enter your full name"
+                                    class="input input-bordered w-full max-w-xs" />
+
+                            </label>
+                        </div>
+                        <div>
+                            <label class="form-control w-full max-w-xs">
+                                <div class="label">
+                                    <span class="label-text text-xl font-bold">Your Email</span>
+                                </div>
+                                <input type="email" placeholder="Enter your email"
+                                    class="input input-bordered w-full max-w-xs" />
+
+                            </label>
+                        </div>
+                        <div>
+                            <label class="form-control w-full max-w-xs">
+                                <div class="label">
+                                    <span class="label-text text-xl font-bold">Subject</span>
+                                </div>
+                                <input type="text" placeholder="Enter your subject"
+                                    class="input input-bordered w-full max-w-xs" />
+
+                            </label>
+                        </div>
+                        <div>
+                            <label class="form-control w-full max-w-xs">
+                                <div class="label">
+                                    <span class="label-text text-xl font-bold">Phone Number</span>
+                                </div>
+                                <input type="number" placeholder="Enter your phone number"
+                                    class="input input-bordered w-full max-w-xs" />
+
+                            </label>
+                        </div>
+
+                    </div>
+
+
+                    <div class="lg:ml-6">
+                        <label class="form-control">
+                            <div class="label">
+                              <span class="label-text text-xl font-bold">Message</span>
+                              
+                            </div>
+                            <textarea class="textarea textarea-bordered h-24" placeholder="Write your message"></textarea>
+                           
+                          </label>
+
+                          <button class="btn btn-wide bg-color-primary">Send Message</button>
+                    </div>
+
+                </div>
+
+                
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+
 
 
 
